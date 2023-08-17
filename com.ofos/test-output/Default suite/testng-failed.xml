@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="admin_module.Add_restaurant_testNG_test">
+        <methods>
+          <include name="config_BS"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_login_BM"/>
+          <include name="config_browser_BC"/>
+          <include name="config_logout_AM"/>
+          <include name="add_restaurant"/>
+        </methods>
+      </class> <!-- admin_module.Add_restaurant_testNG_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

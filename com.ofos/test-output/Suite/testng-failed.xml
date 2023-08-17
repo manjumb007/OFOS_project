@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ofos.GenericUtility.Listener_impleclass"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="admin_module.Add_resto_listener_test">
+        <methods>
+          <include name="config_BS"/>
+          <include name="config_AS"/>
+          <include name="config_AC"/>
+          <include name="config_login_BM"/>
+          <include name="add_restaurant"/>
+          <include name="config_browser_BC"/>
+          <include name="config_logout_AM"/>
+        </methods>
+      </class> <!-- admin_module.Add_resto_listener_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

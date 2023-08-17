@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="com.ofos.GenericUtility.Listener_impleclass"></listener>
+	</listeners>
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="admin_module.Add_restaurant_testNG_test"/>
+      <class name="admin_module.Delete_restaurant_testNG_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
